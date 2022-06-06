@@ -17,7 +17,7 @@ let positivos: number = 0;
 let total: number= 0;
 let porcentajePositivos: number = 0;
 
-while ( nro != 0 ) {
+while ( nro !== 0){
  if ( nro > 0 ){
 positivos++;
 }
@@ -28,3 +28,4 @@ nro = (prompt ("Ingrese números positivos y/o negativos"));
 
   console.log("La cantidad de numeros positivos es "+ positivos+
    " y el porcentaje de números positivos es " + porcentajePositivos);
+}
